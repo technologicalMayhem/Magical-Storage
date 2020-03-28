@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "magicalstorage",
+  "version": "${version}",
+  "name": "Magical Storage",
+  "description": "A mod that is about magic and storage and how those two work together.",
+  "authors": [
+    ""
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/magicalstorage/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "technologicalmayhem.magicalstorage.MagicalStorage"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "magicalstorage.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}

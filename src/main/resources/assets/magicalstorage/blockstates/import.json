@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "magicalstorage:block/import", "x": 90 },
+    "facing=east": { "model": "magicalstorage:block/import", "y": 90, "x": 90 },
+    "facing=south": { "model": "magicalstorage:block/import", "y": 180, "x": 90 },
+    "facing=west": { "model": "magicalstorage:block/import", "y": 270, "x": 90 },
+    "facing=up": { "model": "magicalstorage:block/import" },
+    "facing=down": { "model": "magicalstorage:block/import", "x": 180 }
+  }
+}

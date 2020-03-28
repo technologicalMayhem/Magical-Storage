@@ -1,0 +1,130 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "magicalstorage:block/import",
+		"particle": "magicalstorage:block/import"
+	},
+	"elements": [
+		{
+			"name": "upperPlate",
+			"from": [0, 13, 0],
+			"to": [16, 16, 16],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [4, 3, 8, 3.75], "texture": "#0"},
+				"east": {"uv": [4, 7, 8, 7.75], "texture": "#0"},
+				"south": {"uv": [7, 0, 11, 0.75], "texture": "#0"},
+				"west": {"uv": [7, 0.75, 11, 1.5], "texture": "#0"},
+				"up": {"uv": [4, 4, 0, 0], "texture": "#0"},
+				"down": {"uv": [4, 4, 0, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "lowerPlate",
+			"from": [2, 11, 2],
+			"to": [14, 13, 14],
+			"faces": {
+				"north": {"uv": [7, 6, 10, 6.5], "texture": "#0"},
+				"east": {"uv": [7, 6.5, 10, 7], "texture": "#0"},
+				"south": {"uv": [8, 7, 11, 7.5], "texture": "#0"},
+				"west": {"uv": [8.5, 8.5, 11.5, 9], "texture": "#0"},
+				"up": {"uv": [7, 7, 4, 4], "texture": "#0"},
+				"down": {"uv": [7, 0, 4, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "rod",
+			"from": [6, 2, 6],
+			"to": [10, 11, 10],
+			"faces": {
+				"north": {"uv": [7, 3.75, 8, 6], "texture": "#0"},
+				"east": {"uv": [4, 7.75, 5, 10], "texture": "#0"},
+				"south": {"uv": [5, 7.75, 6, 10], "texture": "#0"},
+				"west": {"uv": [6, 7.75, 7, 10], "texture": "#0"},
+				"up": {"uv": [4, 9, 3, 8], "texture": "#0"},
+				"down": {"uv": [9.5, 1.5, 8.5, 2.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "rodTip",
+			"from": [7, 0, 7],
+			"to": [9, 2, 9],
+			"faces": {
+				"north": {"uv": [3, 9, 3.5, 9.5], "texture": "#0"},
+				"east": {"uv": [3.5, 9, 4, 9.5], "texture": "#0"},
+				"south": {"uv": [1.5, 9.5, 2, 10], "texture": "#0"},
+				"west": {"uv": [2, 9.5, 2.5, 10], "texture": "#0"},
+				"up": {"uv": [3, 10, 2.5, 9.5], "texture": "#0"},
+				"down": {"uv": [3.5, 9.5, 3, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "upperBearing",
+			"from": [5, 9, 5],
+			"to": [11, 10, 11],
+			"faces": {
+				"north": {"uv": [4, 3.75, 5.5, 4], "texture": "#0"},
+				"east": {"uv": [5.5, 3.75, 7, 4], "texture": "#0"},
+				"south": {"uv": [8, 7.5, 9.5, 7.75], "texture": "#0"},
+				"west": {"uv": [8.5, 2.5, 10, 2.75], "texture": "#0"},
+				"up": {"uv": [8.5, 3, 7, 1.5], "texture": "#0"},
+				"down": {"uv": [8.5, 7.75, 7, 9.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "middleBearing",
+			"from": [5, 6, 5],
+			"to": [11, 7, 11],
+			"faces": {
+				"north": {"uv": [8.5, 2.75, 10, 3], "texture": "#0"},
+				"east": {"uv": [8.5, 7.75, 10, 8], "texture": "#0"},
+				"south": {"uv": [8.5, 8, 10, 8.25], "texture": "#0"},
+				"west": {"uv": [8.5, 8.25, 10, 8.5], "texture": "#0"},
+				"up": {"uv": [1.5, 9.5, 0, 8], "texture": "#0"},
+				"down": {"uv": [3, 8, 1.5, 9.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "lowerBearing",
+			"from": [5, 3, 5],
+			"to": [11, 4, 11],
+			"faces": {
+				"north": {"uv": [8.5, 9, 10, 9.25], "texture": "#0"},
+				"east": {"uv": [7, 9.25, 8.5, 9.5], "texture": "#0"},
+				"south": {"uv": [8.5, 9.25, 10, 9.5], "texture": "#0"},
+				"west": {"uv": [0, 9.5, 1.5, 9.75], "texture": "#0"},
+				"up": {"uv": [9.5, 4.5, 8, 3], "texture": "#0"},
+				"down": {"uv": [9.5, 4.5, 8, 6], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [22.5, 45, 0],
+			"translation": [-0.25, -1.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		}
+	},
+	"groups": [
+		{
+			"name": "plate",
+			"origin": [8, 8, 8],
+			"children": [0, 1]
+		},
+		{
+			"name": "rod",
+			"origin": [8, 8, 8],
+			"children": [2, 3, 4, 5, 6]
+		}
+	]
+}
