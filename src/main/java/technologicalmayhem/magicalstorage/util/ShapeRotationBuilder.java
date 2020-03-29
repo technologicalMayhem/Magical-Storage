@@ -9,7 +9,7 @@ public class ShapeRotationBuilder {
 
     public VoxelShape up;
     public VoxelShape down;
-    public VoxelShape NORTH;
+    public VoxelShape north;
     public VoxelShape east;
     public VoxelShape south;
     public VoxelShape west;
@@ -19,7 +19,7 @@ public class ShapeRotationBuilder {
         up = Block.createCuboidShape(xMin, yMin, zMin, xMax, yMax, zMax);
         down = mirrorShape(up);
         south = Block.createCuboidShape(zMin, xMin, yMin, zMax, xMax, yMax);
-        NORTH = mirrorShape(south);
+        north = mirrorShape(south);
         east = Block.createCuboidShape(yMin, zMin, xMin, yMax, zMax, xMax);
         west = mirrorShape(east);
     }
